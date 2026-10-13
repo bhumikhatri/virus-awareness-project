@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virus Awareness - Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+<div class="login-box">
+
+    <div class="icon">🛡️</div>
+
+    <h1>Virus Awareness</h1>
+    <p>Login to continue</p>
+
+    <form onsubmit="login(event)">
+
+        <input type="text" id="username"
+               placeholder="Enter Username" required>
+
+        <input type="password" id="password"
+               placeholder="Enter Password" required>
+
+        <button type="submit">Login</button>
+
+    </form>
+
+    <p id="loginMessage"></p>
+
+</div>
+
+<script src="login.js"></script>
+
+</body>
+</html>

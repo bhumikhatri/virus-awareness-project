@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop & Computer Virus Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="safetyAlert" class="safety-alert">
+    🛡️ <strong>Safety Reminder:</strong>
+    Keep your computer updated and avoid suspicious links and files.
+    <button onclick="closeAlert()">✖</button>
+
+<header>
+    <h1>🛡️ Virus Awareness</h1>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#search">Search</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#virus">Virus</a>
+        <a href="#signs">Warning Signs</a>
+        <a href="#types">Types</a>
+        <a href="#prevention">Prevention</a>
+        <a href="#quick-tips">Safety Tips</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#scanner">Scanner</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="login.html" class="login-btn">Login</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div>
+        <h2>Protect Your Laptop & Computer</h2>
+        <p>
+            Learn about computer viruses, their warning signs,
+            and simple ways to keep your device safe.
+        </p>
+
+        <a href="#prevention" class="btn">Learn Safety Tips</a>
+    </div>
+</section>
+<section id="dashboard">
+    <h2>📊 Awareness Dashboard</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🦠 Virus Types</h3>
+            <p>Learn about common types of computer malware.</p>
+            <a href="#types" class="dashboard-btn">Explore</a>
+        </div>
+
+        <div class="card">
+            <h3>⚠️ Warning Signs</h3>
+            <p>Understand signs that may indicate a security problem.</p>
+            <a href="#signs" class="dashboard-btn">View Signs</a>
+        </div>
+
+        <div class="card">
+            <h3>🛡️ Safety Tips</h3>
+            <p>Learn simple habits for safer computer use.</p>
+            <a href="#prevention" class="dashboard-btn">Stay Safe</a>
+        </div>
+
+        <div class="card">
+            <h3>🧠 Quiz</h3>
+            <p>Test your knowledge about computer virus awareness.</p>
+            <a href="#quiz" class="dashboard-btn">Take Quiz</a>
+        </div>
+
+    </div>
+</section>
+<section id="stats">
+
+    <h2>📊 Project Overview</h2>
+
+    <div class="stats-container">
+
+        <div class="stat-card">
+            <h3>🦠 5+</h3>
+            <p>Virus Types</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>🛡️ 10+</h3>
+            <p>Safety Tips</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>🧠 5</h3>
+            <p>Quiz Questions</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>🔍 1</h3>
+            <p>Safety Scanner</p>
+        </div>
+
+    </div>
+
+</section>
+<section id="search">
+    <h2>🔍 Search Virus Information</h2>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search virus type...">
+        <button onclick="searchVirus()">Search</button>
+        <p id="searchResult"></p>
+    </div>
+</section>
+
+<section id="virus">
+    <h2>🦠 What is a Computer Virus?</h2>
+
+    <div class="card">
+        <p>
+            A computer virus is a type of malicious software that can
+            damage files, affect computer performance, or spread to
+            other computers.
+        </p>
+
+        <p>
+            Viruses can enter a computer through unsafe downloads,
+            infected files, email attachments, or unknown USB devices.
+        </p>
+    </div>
+</section>
+
+<section id="signs">
+    <h2>⚠️ Warning Signs of a Virus</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🐌 Slow Computer</h3>
+            <p>Your computer may become unusually slow.</p>
+        </div>
+
+        <div class="card">
+            <h3>📢 Strange Pop-ups</h3>
+            <p>Unexpected advertisements or messages may appear.</p>
+        </div>
+
+        <div class="card">
+            <h3>📁 Missing Files</h3>
+            <p>Files may become unavailable or behave unexpectedly.</p>
+        </div>
+
+        <div class="card">
+            <h3>💻 Crashes</h3>
+            <p>Applications may stop working or the system may crash.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="types">
+    <h2>🦠 Common Types of Malware</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Virus</h3>
+            <p>Can attach itself to files and spread when they are opened.</p>
+        </div>
+
+        <div class="card">
+            <h3>Worm</h3>
+            <p>Can spread automatically between computers or networks.</p>
+        </div>
+
+        <div class="card">
+            <h3>Trojan</h3>
+            <p>Malicious software disguised as a legitimate program.</p>
+        </div>
+
+        <div class="card">
+            <h3>Ransomware</h3>
+            <p>Can block access to files and demand payment.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="prevention">
+    <h2>🛡️ How to Stay Safe</h2>
+
+    <div class="tips">
+        <p>✅ Keep your operating system and applications updated.</p>
+        <p>✅ Use trusted security software.</p>
+        <p>✅ Avoid unknown links and suspicious downloads.</p>
+        <p>✅ Don't open unexpected email attachments.</p>
+        <p>✅ Scan USB drives before opening files.</p>
+        <p>✅ Keep important files backed up.</p>
+        <p>✅ Use strong and unique passwords.</p>
+    </div>
+
+    <button onclick="showMessage()">Check Safety Reminder</button>
+
+    <p id="message"></p>
+</section>
+<section id="quick-tips">
+    <h2>⭐ Quick Safety Tips</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🔄 Update Software</h3>
+            <p>Keep your operating system and applications updated.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔐 Use Strong Passwords</h3>
+            <p>Use strong, unique passwords for your important accounts.</p>
+        </div>
+
+        <div class="card">
+            <h3>📧 Check Emails</h3>
+            <p>Be careful with unexpected links and attachments.</p>
+        </div>
+
+        <div class="card">
+            <h3>💾 Backup Data</h3>
+            <p>Keep backup copies of important files.</p>
+        </div>
+
+        <div class="card">
+            <h3>🛡️ Use Security Software</h3>
+            <p>Use trusted security tools and keep them updated.</p>
+        </div>
+
+    </div>
+</section>
+<section id="scanner">
+    <h2>🔍 Virus Safety Scanner</h2>
+
+    <div class="scanner-box">
+        <div class="scan-icon">🛡️</div>
+
+        <h3>Check Your Safety Awareness</h3>
+
+        <p>
+            Click the button to run a simulated security check.
+        </p>
+
+        <button onclick="startScan()">Start Scan</button>
+
+        <div id="scanStatus"></div>
+    </div>
+</section>
+<section id="quiz">
+    <h2>🧠 Computer Virus Awareness Quiz</h2>
+
+    <div class="quiz-box">
+
+        <h3>1. What is a computer virus?</h3>
+        <button onclick="answer(1, 'wrong')">A. A computer game</button>
+        <button onclick="answer(1, 'correct')">B. Malicious software</button>
+        <button onclick="answer(1, 'wrong')">C. A computer part</button>
+
+        <h3>2. Which can help prevent malware?</h3>
+        <button onclick="answer(2, 'correct')">A. Keeping software updated</button>
+        <button onclick="answer(2, 'wrong')">B. Opening unknown links</button>
+        <button onclick="answer(2, 'wrong')">C. Downloading unknown files</button>
+
+        <h3>3. Which is a warning sign?</h3>
+        <button onclick="answer(3, 'wrong')">A. Normal performance</button>
+        <button onclick="answer(3, 'correct')">B. Unexpected pop-ups</button>
+        <button onclick="answer(3, 'wrong')">C. Normal startup</button>
+
+        <h3>4. What should you do with suspicious email attachments?</h3>
+        <button onclick="answer(4, 'correct')">A. Avoid opening them</button>
+        <button onclick="answer(4, 'wrong')">B. Open immediately</button>
+        <button onclick="answer(4, 'wrong')">C. Forward them</button>
+
+        <h3>5. Why should important files be backed up?</h3>
+        <button onclick="answer(5, 'correct')">A. To help recover data</button>
+        <button onclick="answer(5, 'wrong')">B. To slow the computer</button>
+        <button onclick="answer(5, 'wrong')">C. To delete files</button>
+
+        <h3 id="score">Score: 0 / 5</h3>
+
+    </div>
+</section>
+<section id="about">
+    <h2>📚 About This Project</h2>
+
+    <div class="card">
+        <p>
+            This project is created to spread awareness about computer
+            viruses and basic cybersecurity practices.
+        </p>
+
+        <p>
+            The goal is to help students and computer users understand
+            common risks and use computers more safely.
+        </p>
+    </div>
+</section>
+<section id="contact">
+    <h2>📩 Contact & Feedback</h2>
+
+    <div class="contact-box">
+        <h3>Have a Question?</h3>
+        <p>Send us your feedback about computer virus awareness.</p>
+
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <textarea id="message" placeholder="Write your message"></textarea>
+
+        <button onclick="sendFeedback()">Submit Feedback</button>
+
+        <p id="feedbackMessage"></p>
+    </div>
+</section>
+<div class="top-button">
+    <a href="#home">⬆️ Back to Top</a>
+</div>
+<footer class="main-footer">
+
+    <h2>🛡️ Virus Awareness</h2>
+
+    <p>
+        Learn about computer viruses and protect your laptop and computer.
+    </p>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#types">Virus Types</a>
+        <a href="#prevention">Prevention</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#about">About</a>
+    </div>
+
+    <p class="footer-safety">
+        🛡️ Stay Alert • Stay Safe • Protect Your Data
+    </p>
+
+    <p class="copyright">
+        © 2026 Laptop & Computer Virus Awareness
+    </p>
+
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
